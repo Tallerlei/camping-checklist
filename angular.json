@@ -90,18 +90,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "camping-checklist:build"
+            "buildTarget": "camping-checklist:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "camping-checklist:build:production"
+              "buildTarget": "camping-checklist:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "camping-checklist:build"
+            "buildTarget": "camping-checklist:build"
           }
         },
         "test": {
